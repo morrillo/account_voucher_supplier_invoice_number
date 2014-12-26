@@ -20,7 +20,7 @@
 ##############################################################################
 
 from openerp.osv import fields, orm
-from tools.translate import _
+from openerp.tools.translate import _
 
 class voucher_line(orm.Model):
     _inherit = 'account.voucher.line'
